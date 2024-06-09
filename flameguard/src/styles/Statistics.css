@@ -1,8 +1,6 @@
 .drone-statistics {
   color: white;
-  width: 40%;
   height: 100%;
-  margin-right: 1rem;
   margin-left: 3rem;
   border: 2px solid #ffffff;
 }
@@ -36,7 +34,7 @@
 }
 
 .data-section > div > span {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .patrol-log-section {

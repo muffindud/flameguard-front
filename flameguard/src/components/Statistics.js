@@ -24,15 +24,21 @@ function Statistics() {
       <div className="patrol-log-section">
         <h3>Patrol Log</h3>
         <ol>
-          <li>Date: 2024-06-09 <br/>
-          Start Time: 08:00 <br/>
-          End Time: 08:32</li>
-          <li>Date: 2024-06-08 <br/>
-          Start Time: 10:15 <br/>
-          End Time: 10:43</li>
-          <li>Date: 2024-06-07 <br/>
-          Start Time: 14:00 <br/>
-          End Time: 14:25</li>
+          <li>
+            Date: 2024-06-09 <br />
+            Start Time: 08:00 <br />
+            End Time: 08:32
+          </li>
+          <li>
+            Date: 2024-06-08 <br />
+            Start Time: 10:15 <br />
+            End Time: 10:43
+          </li>
+          <li>
+            Date: 2024-06-07 <br />
+            Start Time: 14:00 <br />
+            End Time: 14:25
+          </li>
         </ol>
       </div>
     </div>

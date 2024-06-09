@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Statistics from "./components/Statistics";
+import Control from "./components/Control";
 import "./index.css";
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Statistics />
+      <div className="app-container">
+        <Statistics />
+        <Control />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,76 @@
+.drone-control {
+  color: white;
+  height: 100%;
+  margin-right: 3rem;
+  border: 2px solid #ffffff;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  background-color: #212430;
+  height: 4rem;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+.title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 1rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+.image-button {
+  background-color: #ba181b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.image-button:hover {
+  background-color: #a4161a;
+}
+
+.patrol-button {
+  background-color: #2b2d42;
+  color: #ba181b;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #ba181b;
+}
+
+.patrol-button:hover {
+  color: #a4161a;
+  border-color: #a4161a;
+}
+
+.image-section {
+  padding: 3rem;
+}
+
+.image-title {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.drone-image {
+  width: 100%;
+  border: 2px solid #ffffff;
+}
