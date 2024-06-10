@@ -1,0 +1,25 @@
+.intro-container {
+  margin: 4rem 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.intro-header {
+  font-size: 3.5rem;
+  font-weight: 700;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+}
+
+.intro-header > span {
+  color: #ba181b;
+}
+
+.intro-text {
+  text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
