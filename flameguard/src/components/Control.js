@@ -1,20 +1,25 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Control.css";
 
+import { HOST, PORT } from "../config";
+
 function Control() {
   const [image, setImage] = useState("");
 
   const requestImage = () => {
-    // TODO: Replace with backend API endpoint
-    fetch("...")
+    fetch(`http://${HOST}:${PORT}/image`)
       .then((response) => response.json())
-      .then((data) => setImage(data.imageUrl))
+      // TODO: Uncomment when ready
+      // .then((data) => setImage(data.imageUrl))
+      .then((data) => console.log(data))
       .catch((error) => console.error("Error fetching drone image:", error));
   };
 
   const sendPatrolRequest = () => {
-    // TODO: Implement patrol request logic here
-    console.log("Manual patrol request sent");
+    fetch(`http://${HOST}:${PORT}/patrol`)
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.error("Error sending patrol request:", error));
   };
 
   return (

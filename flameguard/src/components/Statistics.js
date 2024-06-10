@@ -2,6 +2,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "../styles/Statistics.css";
 
+import { HOST, PORT } from "../config";
+
 function Statistics() {
   const [data, setData] = useState({
     droneStatus: "",
@@ -12,13 +14,12 @@ function Statistics() {
   });
 
   useEffect(() => {
-    // TODO: Fetch drone statistics from the backend API
-    fetch("...")
+    fetch(`http://${HOST}:${PORT}/stats`)
       .then((response) => response.json())
-      .then((data) => setData(data))
-      .catch((error) =>
-        console.error("Error fetching drone statistics:", error)
-      );
+      // TODO: Uncomment when ready
+      // .then((data) => setData(data))
+      .then((data) => console.log(data))
+      .catch((error) => console.error("Error fetching drone statistics:", error));
   }, []);
 
   return (
