@@ -10,8 +10,8 @@ function Control() {
     fetch(`http://${HOST}:${PORT}/image`)
       .then((response) => response.json())
       // TODO: Uncomment when ready
-      // .then((data) => setImage(data.imageUrl))
-      .then((data) => console.log(data))
+      .then((data) => setImage("http://" + HOST + ":" + PORT + data.src))
+      // .then((data) => console.log(data))
       .catch((error) => console.error("Error fetching drone image:", error));
   };
 
