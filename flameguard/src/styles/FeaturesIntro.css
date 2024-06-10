@@ -1,0 +1,28 @@
+.introd-img {
+  margin: 2rem 4rem;
+}
+
+.introduction-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+}
+
+.introduction-image-container {
+  grid-column: 1;
+}
+
+.introduction-text {
+  grid-column: 2;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  margin-right: 3rem;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+}
+
+.introduction-text > p > span {
+  color: #ba181b;
+}
